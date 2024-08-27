@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Profile</title>
+<script>
+    function myfunc(){
+
+        document.getElementById("demo").innerHTML='TEXT CHANGE';
+        onclick=myfunc();
+   
+    }
+     </script>   
+
+</head>
+<body>
+    
+    <div>
+        
+        <input type="text" id="Abid">
+        <input type="email" id="email">
+        
+        
+        <button onclick="document.getElementById('Abid')">Show</button>
+        <button onclick="document.getElementById ('email').style.display='none'">none</button>
+        <br><br>
+        </div>
+        
+
+
+
+
+
+
+<div>
+<img src="media/bb.jpg" height="300px; width=250px;" id="y"><br>
+<button onlick="getElementById ('y').src=media/bb.jpg">Hide</button>
+<button onclick="document.getElementById('y')">Show</button>
+</div>
+
+<img src="media/p.jpg" height="300px; width=250px;" id="xy"><br>
+<br>
+<button onclick="document.getElementById ('xy').src='media/bb.jpg'">PIC CHANGE</button>
+<button onclick="document.getElementById ('xy').style.display='none'">none</button>
+
+
+
+    <div id="box" style="height: 200px; width: 200px; border: 1px solid blue;">
+
+    </div>
+    <button onclick="document.getElementById ('box').style.backgroundColor='blue'";>Click Me</button>
+    <br>
+    <button onclick="document.getElementById ('box').style.backgroundColor='blue'";>Click Me</button>
+    <button onclick="document.getElementById ('box').style.fontSize ='35px'";>Click</button>
+
+
+<p id="demo">this is JAVASCRIPT learning</p>
+<button onclick="document.getElementById ('demo').innerHTML='have change the text'">Click Me</button>
+</body>  
+</html>
